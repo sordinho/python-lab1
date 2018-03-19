@@ -3,7 +3,7 @@
 stringa = 'hello'
 length = len(stringa)
 
-if length < 4:
+if length < 2:
     print ("")
 else:
     newString = stringa[0] + stringa[1] + stringa[len(stringa)-2] +stringa[len(stringa)-1]
